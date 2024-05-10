@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "Administrator",
+      "password": "passwordadmin",
+      "email": "admin@example.com",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/6858/6858504.png",
+      "role": "admin"
+    },
+    {
+      "id": "guest",
+      "name": "Guest",
+      "password": "passwordguest",
+      "email": "guest@example.com",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/6858/6858504.png",
+      "role": "guest"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "description": "Contact Email not Linked",
+      "customer_id": "1",
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "updated_at": "2022-01-01T00:00:00.000Z",
+      "priority": "high",
+      "status": "approve",
+      "otherStatus": "over due",
+      "count": 432
+    },
+    {
+      "id": "2",
+      "description": "Contact Email not Linked",
+      "customer_id": "2",
+      "created_at": "2022-01-01T00:00:00.000Z",
+      "updated_at": "2022-01-01T00:00:00.000Z",
+      "priority": "low",
+      "status": "reject",
+      "otherStatus": "unresolved",
+      "count": 432
+    },
+    {
+      "id": "03df",
+      "description": "Waiting on Feature Request",
+      "customer_id": "1",
+      "priority": "normal",
+      "status": "approve",
+      "created_at": "2024-05-09T13:18:41.627Z",
+      "otherStatus": "unresolved",
+      "count": 4238,
+      "group": "support"
+    },
+    {
+      "id": "c20d",
+      "description": "Awaiting Customer Response",
+      "customer_id": "2",
+      "priority": "normal",
+      "status": "reject",
+      "created_at": "2024-05-09T14:53:04.039Z",
+      "otherStatus": "unresolved",
+      "count": 1005,
+      "group": "support",
+      "updated_at": "2024-05-09T14:57:48.768Z"
+    },
+    {
+      "id": "3ecf",
+      "description": "Awaiting Developer Fix",
+      "customer_id": "2",
+      "priority": "normal",
+      "status": "reject",
+      "created_at": "2024-05-09T14:53:04.039Z",
+      "otherStatus": "unresolved",
+      "count": 914,
+      "group": "support"
+    },
+    {
+      "id": "be40",
+      "description": "Pending",
+      "customer_id": "1",
+      "priority": "normal",
+      "status": "reject",
+      "created_at": "2024-05-09T14:53:04.039Z",
+      "otherStatus": "over due",
+      "count": 281,
+      "group": "support"
+    },
+    {
+      "id": "0d8d",
+      "description": "error",
+      "customer_id": "1",
+      "priority": "low",
+      "status": "approve",
+      "created_at": "2024-05-09T14:53:04.039Z",
+      "otherStatus": "unresolved",
+      "count": 2,
+      "group": "support"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Tom Cruise",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/6858/6858504.png"
+    },
+    {
+      "id": "2",
+      "name": "Angelina Jolie",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/6858/6858504.png"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Finish ticket update",
+      "status": "urgent",
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "completed": "uncompleted"
+    },
+    {
+      "id": 2,
+      "title": "Create new ticket example",
+      "status": "new",
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "completed": "uncompleted"
+    },
+    {
+      "id": 3,
+      "title": "Update ticket report",
+      "status": "default",
+      "created_at": "2024-01-01T00:00:00.000Z",
+      "completed": "completed"
+    }
+  ]
+}
